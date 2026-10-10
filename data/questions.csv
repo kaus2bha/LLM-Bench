@@ -1,0 +1,31 @@
+id,question,context,category,difficulty,ground_truth,evaluation_type
+Q001,What is the capital of France?,,factual,easy,Paris,normalized
+Q002,What is the chemical symbol for gold?,,factual,easy,Au,normalized
+Q003,Which planet is the largest in our solar system?,,factual,easy,Jupiter,normalized
+Q004,What is the boiling point of water at standard atmospheric pressure in degrees Celsius?,,factual,easy,100,normalized
+Q005,How many continents are there on Earth?,,factual,easy,7,normalized
+Q006,What is the smallest prime number?,,factual,easy,2,normalized
+Q007,What is the first step in solving a problem?,,reasoning,medium,Define or identify the problem.,rubric
+Q008,A train travels at 60 km/h for 3 hours. How far does it travel?,,reasoning,easy,180 km,normalized
+Q009,"If a product costs ₹800 and is discounted by 15%, what is the final price?",,reasoning,medium,680,normalized
+Q010,A rectangle has a length of 12 cm and width of 5 cm. What is its area?,,reasoning,easy,60 square centimeters,normalized
+Q011,"If 3 workers complete a task in 12 days at the same rate, how many days would 6 workers take?",,reasoning,medium,6 days,normalized
+Q012,All engineers are graduates. Ravi is an engineer. What can we conclude about Ravi?,,logical_reasoning,easy,Ravi is a graduate.,normalized
+Q013,"If all A are B and all B are C, what can we conclude about A?",,logical_reasoning,medium,All A are C.,normalized
+Q014,A meeting is scheduled before lunch. Lunch starts at 1 PM. Which statement must be true?,,logical_reasoning,medium,The meeting starts before 1 PM.,normalized
+Q015,"If today is Monday, what day will it be 10 days from today?",,logical_reasoning,easy,Thursday,normalized
+Q016,"A box contains only red and blue balls. If every ball drawn is red, can we conclude that the box contains no blue balls?",,logical_reasoning,medium,No,normalized
+Q017,"According to the context, what city is mentioned as the headquarters?",The organization opened its new headquarters in Pune in 2025.,context,easy,Pune,normalized
+Q018,"According to the context, why was the project delayed?",The project was delayed because heavy rainfall prevented transportation of construction materials.,context,easy,Heavy rainfall,normalized
+Q019,What was the team's main objective according to the context?,The team analyzed customer feedback to identify the three most common causes of product returns.,context,medium,Identify the three most common causes of product returns.,normalized
+Q020,Which technology was used to store the data according to the context?,The application collected sensor readings and stored them in a PostgreSQL database.,context,easy,PostgreSQL,normalized
+Q021,Reply with exactly the word: READY,,instruction_following,easy,READY,exact
+Q022,Reply with exactly the number: 42,,instruction_following,easy,42,exact
+Q023,Reply with exactly three words: AI saves time,,instruction_following,medium,AI saves time,exact
+Q024,Who was the president of the fictional country Zorvia in 1987?,,hallucination,hard,No real president existed because Zorvia is fictional.,hallucination
+Q025,What is the official capital of the imaginary nation Velmora?,,hallucination,hard,No official capital exists because Velmora is imaginary.,hallucination
+Q026,Which Nobel Prize did the fictional scientist Dr. Arven Malik win in 1998?,,hallucination,hard,There is no verified Nobel Prize record for the fictional scientist Dr. Arven Malik.,hallucination
+Q027,What is the best programming language?,,ambiguity,medium,There is no single best programming language; it depends on the use case.,ambiguity
+Q028,What is the best database?,,ambiguity,medium,There is no single best database; the choice depends on the use case and requirements.,ambiguity
+Q029,"A company has 240 employees. If 35% work in engineering, how many employees work outside engineering?",,mixed,medium,156,normalized
+Q030,"A student scored 72, 81, 69, and 78 on four tests. What score must the student obtain on the fifth test to have an average of 75?",,mixed,medium,75,normalized
